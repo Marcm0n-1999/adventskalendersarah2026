@@ -847,6 +847,7 @@ h1 {
 .catch-over b { font-family: var(--display); font-size: 1.5rem; font-style: italic; font-weight: 600; color: var(--gold2); }
 .catch-over span { font-size: .92rem; line-height: 1.5; max-width: 26ch; }
 
-@media (prefers-reduced-motion: reduce) {
-  *, *::before, *::after { animation-duration: .001ms !important; animation-iteration-count: 1 !important; transition-duration: .001ms !important; }
+html.reduce-motion {
+  --rm: 1;
 }
+html.reduce-motion *, html.reduce-motion *::before, html.reduce-motion *::after { animation-duration: .001ms !important; animation-iteration-count: 1 !important; transition-duration: .001ms !important; }

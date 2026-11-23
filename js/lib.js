@@ -2,7 +2,11 @@
 (function () {
   'use strict';
   const AU = (window.AU = {});
-  const reduce = window.matchMedia && matchMedia('(prefers-reduced-motion: reduce)').matches;
+  // Standardmäßig laufen die Animationen immer. Mit respectReducedMotion: true in content.js
+  // wird die iPhone-Einstellung "Bewegung reduzieren" respektiert.
+  const respect = !!(window.ADVENT_CONFIG && window.ADVENT_CONFIG.respectReducedMotion);
+  const reduce = respect && window.matchMedia && matchMedia('(prefers-reduced-motion: reduce)').matches;
+  if (reduce) document.documentElement.classList.add('reduce-motion');
   AU.reduceMotion = reduce;
 
   AU.el = function (tag, cls, html) {

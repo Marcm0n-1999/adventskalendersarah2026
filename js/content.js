@@ -8,6 +8,7 @@ window.ADVENT_CONFIG = {
   year: 2026,
   month: 12,                  // Dezember
   days: 24,                   // letztes Türchen = Finale
+  respectReducedMotion: false, // true = iPhone-Einstellung "Bewegung reduzieren" beachten (dann kein Konfetti/Schnee)
 
   eyebrow: 'Ein kleines Geschenk für dich',
   title: 'Sarahs Adventskalender',
