@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600"><defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#d99a9a"/><stop offset="1" stop-color="#5a2a2a"/></linearGradient></defs>
+<rect width="800" height="600" fill="url(#g)"/>
+<polygon points="400.0,180.0 418.9,223.9 466.6,228.4 430.6,260.0 441.1,306.6 400.0,282.2 358.9,306.6 369.4,260.0 333.4,228.4 381.1,223.9" fill="#f0d894" opacity=".9"/>
+<text x="400" y="400" font-family="Georgia,serif" font-style="italic" font-size="44" text-anchor="middle" fill="#f7efdd">Ein schöner Moment</text>
+<text x="400" y="445" font-family="Arial,sans-serif" font-size="22" text-anchor="middle" fill="#f7efdd" opacity=".75">Platzhalter – hier kommt euer Foto hin</text></svg>

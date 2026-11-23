@@ -1,0 +1,29 @@
+ADVENTSKALENDER – KURZANLEITUNG
+================================
+
+Dateien
+-------
+index.html        Die Seite selbst (nichts ändern)
+css/style.css     Design (Farben, Schriften)
+js/content.js     HIER trägst du alles ein: Titel, Begrüßung, die 24 Türchen
+js/lib.js, games.js, app.js   Technik (nichts ändern)
+media/            Hier kommen deine Fotos hinein
+
+Testmodus
+---------
+Ganz oben auf der Seite ist ein kleiner goldener Stern. 5 Mal schnell darauf tippen,
+dann erscheint die Passwortabfrage. Danach sind alle 24 Türchen offen.
+Unten erscheint ein Banner, über "Beenden" schaltest du den Testmodus wieder aus.
+Im Testmodus wird nichts als "geöffnet" gespeichert.
+
+Türchen befüllen (in js/content.js)
+-----------------------------------
+Text:      title, text, signature
+Foto:      image: 'media/meinfoto.jpg', caption: 'Beschriftung'
+Mehrere:   images: [{ src: 'media/a.jpg', caption: '…' }, …]
+Video:     youtube: 'https://youtu.be/XXXXXXXXXXX'   (auf YouTube "nicht gelistet" hochladen)
+Spiele:    type: 'memory' | 'quiz' | 'puzzle' | 'scratch' | 'catch'
+Finale:    Türchen 24 ist automatisch das große Finale.
+
+Tipps für Fotos: Querformat-Fotos auf ca. 1200 Pixel Breite verkleinern (JPG),
+dann laden sie auf dem Handy schnell. Dateinamen ohne Leerzeichen und Umlaute.
